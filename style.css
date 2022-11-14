@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500&family=Outfit:wght@400;700&family=Raleway:wght@300&family=Ubuntu&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: purple;
+    height: 80px;
+    width:100%;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: green;
+    height: 100vh;
+}
+nav h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cradit{
+    font-family: 'Baloo Da 2', cursive;
+}
+.cradit a{
+    text-decoration: none;
+    color: purple;
+}
+
+h2, h1, h3,p{
+    text-align: center;
+
+}
+.game{
+    background-color: rgb(1, 59, 1) ;
+}
+
+.aftergame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: purple;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.game{
+    width: 606px;
+    height: 396px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.grid{
+    width: 200px;
+    height: 130px;
+    border: 1px solid rgb(218, 241, 195);
+}
+.mole{
+    background-image: url(./image/b657d6120067027.60aaa5781578e-removebg-preview.png);
+    background-position: center;
+    /* background-size: cover; */
+    background-size: 120px;
+    background-repeat: no-repeat;
+}
+
+@media (min-width:300px) and (max-width:900px) {
+    nav{
+        height: 50px;
+    }
+    .game{
+        width:92vw;
+        height: 60vh;
+    }
+    .grid{
+        width:30vw;
+        height: 20vh;
+    }
+    .mole{
+        background-size: 80px;
+    }
+}

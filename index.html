@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/image/b657d6120067027.60aaa5781578e-removebg-preview.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Whac-a-mole</title>
+</head>
+<body>
+    <main>
+        <nav>
+            <h1>Whac-a-mole</h1>
+        </nav>
+        <div id="maingame">
+            <p>Note: You have 60s to play the game.</p>
+            <h2>Timer: <span class="time" id="time">60</span>s</h2>
+            <h2>Score: <span class="score" id="score">0</span></h2>
+            
+            <!-- game grid -->
+            <div class="game">
+                <div class="grid" id="1"></div>
+                <div class="grid" id="2"></div>
+                <div class="grid" id="3"></div>
+                <div class="grid" id="4"></div>
+                <div class="grid" id="5"></div>
+                <div class="grid" id="6"></div>
+                <div class="grid" id="7"></div>
+                <div class="grid" id="8"></div>
+                <div class="grid" id="9"></div>
+            </div>
+        </div>
+        <p class="cradit"> <a href="https://jubayerrahman.github.io/JubayerCompletePortfolio/">জুবায়ের রাহমান</a> দ্বারা প্রস্তুতকৃত একটি গেম। </p>
+        <div id="aftergame">
+            <h2>Game Over</h2>
+            <h3>Youre Socre: <span id="finalResult"></span></h3>
+            <button id="reload">Reload</button>
+        </div>
+    </main>
+    <!-- Js function -->
+    <script src="./function.js"></script>
+</body>
+</html>
